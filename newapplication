@@ -1,0 +1,78 @@
+<html>
+<title>New applications</title>
+
+<head>
+	<link rel="stylesheet" href="Mystyle.css">
+	<link rel="stylesheet" href="anotherstyle.css">
+
+</head>
+
+<body>
+
+<div id="block_page">
+	<div id="header">
+		<div id="title">QUICK CREDIT</div>
+		
+	</div>
+	<div class="upright_bar">
+		    <div id="menu"><a href="Verification.html">Clients</a></div>
+			<div id="menu"><a href="newapplications.html">Applications</a></div>
+			<div id="menu"><a href="currentloans.html">Loans</a></div>
+			<div id="menu"><a href="">repaid</a></div><br>
+		</div>
+    <div class="section1">
+        <div class="section2">
+        <h2>Loan applications</h2>
+            <div class="search">
+            <input type="text" id="search" placeholder="search..."><input type="button" value="search" >
+            </div>
+    	<table>
+    		<tr>
+    			<th>Firstname</th>
+    			<th>Lastname</th>
+    			<th>Date of birth</th>
+    			<th>Email</th>
+    			<th>PhoneNo</th>
+    			<th>Address</th>
+                <th>Marital status</th>
+    			<th>Employer name</th>
+    			<th>Occupation</th>
+                <th>Current mortgage</th>
+                <th>outstanding mortgage</th>
+                <th>Loan requested</th>
+                <th>Repayment time</th>
+                <th>Purpose of loan</th>
+                <th>Comment</th>
+                <th>Status</th>
+    		</tr>
+    		<tr>
+                <td>Paul</td>
+                <td>Manzi</td>
+                <td>03/02/2019</td>
+                <td>paulmanzi@gmail.com</td>
+                <td>0787567056</td>
+                <td>Kigali city</td>
+                <td>single</td>
+                <td>RMI</td>
+                <td>ICT officer</td>
+                <td>$1000</td>
+                <td>$200</td>
+                <td>$6000</td>
+                <td>24months</td>
+                <td>building a house</td>
+                <td>Loan will help me to build my new home</td> 
+                <td>Pending..</td>               		  
+    		    
+    		</tr>
+        </table>
+        <div id="appro"><input type="submit" value="Approve">
+        <input type="submit" value="Reject"></div>
+        </div>
+    </div>
+     <footer>
+     	<p>Copyright©2019 Marie Aimee ISHIMWE, All rights reserved.</p>
+     </footer>
+
+    </div>
+</body>
+</html>
